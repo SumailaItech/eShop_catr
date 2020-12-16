@@ -1,0 +1,223 @@
+body,
+.card,
+.card-header,
+.hero {
+    background-color: var(--skin-background-color-1);
+    font-family: var(--skin-body-font);
+    color: var(--skin-main-text-color-1);
+}
+
+.main-callout{
+   background-image: url(images/large.jpg);
+}
+
+@media(min-width:500px){
+    .brand img {
+        width: 35%;
+    }
+    //  .header{
+    //     border-bottom: #181818 1px solid;
+    //  }
+    }
+
+
+    @media (max-width: 991.98px){
+    .brand {
+        width: 10em;
+        margin-left: -10em;
+        padding-top: .8em;
+    }
+}
+
+@media (max-width: 480.98px){
+.brand {
+    width: 4em;
+    margin-left: -4em;
+    padding-top: .8em;
+}
+}
+
+.hero {
+    border-bottom-color: var(--skin-background-color-1);
+}
+
+.main-menu{
+    background-color: #181818;
+}
+
+// .main-menu {
+//     background-color: var(--skin-banner-background-color-1);
+// }
+
+.banner-color {
+    background-color: var(--skin-banner-background-color-1);
+}
+
+.header-banner {
+    background-color: var(--skin-banner-background-color-2);
+    color: var(--skin-banner-text-color-1);
+}
+
+.header-banner .close-button .close {
+    background-color: var(--skin-primary-color-1);
+}
+
+.hero h1.page-title {
+    top: 50%;
+    margin: -1em 0 0;
+    border-top-right-radius: 50px;
+    background-color: #828c90;
+}
+
+.hero h1.page-title::before{
+    background-color: #828c90;
+}
+
+footer {
+    background-color: #181818 !important;
+    padding-top: 1.25em; /* 20/16 */
+    padding-bottom: 1.25em;
+    border-top: 1px solid #2d2d2d;
+    color: #fff;
+
+    h2 {
+        color: #fff;
+    }
+
+   a {
+        
+            color: #fff;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+}
+
+h1.header.page-title,
+h1.header.page-title::before {
+    background-color:#828c90;
+    color: var(--skin-heading-color-1-invert);
+}
+
+.product-tile {
+    background-color: var(--skin-background-color-1);
+    border: 10px solid var(--skin-border-color-1);
+    box-shadow: 1px 1px 3px 0.02px #888888;
+    margin-bottom: 1.5rem;
+}
+
+.refinements ul li button {
+    color: var(--skin-primary-color-1);
+}
+
+.custom-select {
+    background-color: var(--skin-selectbox-background-color-1);
+    color: var(--skin-selectbox-text-color-1);
+}
+
+a {
+    color: var(--skin-primary-color-1);
+}
+
+// header ~ #maincontent .container a:not(.btn-primary, .btn-outline-primary) {
+//     color: var(--skin-primary-color-1);
+// }
+
+.price {
+    color: var(--skin-price-1);
+}
+
+.navbar,
+.navbar .nav-item,
+.navbar .nav-item a,
+.navbar .nav-item.dropdown,
+.navbar .nav-item.dropdown a,
+.dropdown-menu,
+.dropdown-menu a {
+    color: var(--skin-menu-color-1-invert);
+}
+
+.navbar .nav-item.dropdown,
+.navbar .nav-item.dropdown .dropdown-menu.show {
+    color: var(--skin-selectbox-text-color-1);
+}
+
+.navbar .nav-item.dropdown .dropdown-menu.show {
+    background-color: var(--skin-selectbox-background-color-1);
+
+    a,
+    .nav-item {
+        color: var(--skin-selectbox-text-color-1);
+    }
+}
+
+.nav-item .nav-link:hover,
+.nav-item .nav-link:focus,
+.nav-item.show .nav-link {
+    background-color: var(--skin-menu-color-1-invert);
+    color: var(--skin-menu-color-1) !important;
+}
+
+.btn-primary {
+    background-color: #828c90;
+    border-color: #828c90;;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    border-color: #828c90;;
+    background-color: #828c90;;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    background-color: var(--skin-primary-color);
+    border-color: var(--skin-primary-color);
+    color: var(--skin-primary-color-invert-1);
+    opacity: 0.5;
+}
+
+.btn-outline-primary {
+    color: #828c90;
+    border-color: #828c90;;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #828c90;
+    border-color: #828c90;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--skin-header-font), sans-serif;
+}
+
+a {
+    color: var(--skin-link-color-1);
+}
+
+.home-email-signup{
+    background-color: #828c90;
+    padding: 2rem;
+    color:white;
+}
+
+.subscribe-email{
+    background-color: #181818;
+}
+
+.subscribe-email:hover{
+    background-color: #38393a;
+}
+
+.hp-product-content{
+    display: none;
+}
